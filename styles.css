@@ -1,0 +1,100 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  margin: 0;
+  background: #f5f7f9;
+  color: #1b2027;
+  line-height: 1.55;
+}
+
+main {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+a {
+  color: #0b5d4d;
+  font-weight: 600;
+}
+
+.card {
+  display: grid;
+  gap: 0.6rem;
+  max-width: 26rem;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0 2rem;
+  background: #fff;
+  border: 1px solid #dbe1e7;
+  border-radius: 0.6rem;
+}
+
+.card label {
+  display: grid;
+  gap: 0.2rem;
+  font-weight: 600;
+}
+
+.card label.inline {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  font-weight: 400;
+}
+
+input,
+textarea {
+  font: inherit;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid #dbe1e7;
+  border-radius: 0.35rem;
+}
+
+button {
+  justify-self: start;
+  padding: 0.5rem 0.9rem;
+  border: 0;
+  border-radius: 0.35rem;
+  background: #0f7d68;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.notices {
+  list-style: none;
+  padding: 0;
+}
+
+.notices li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #dbe1e7;
+}
+
+.by {
+  color: #4b5560;
+  font-size: 0.9em;
+}
+
+.body {
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #dbe1e7;
+  border-radius: 0.6rem;
+}
+
+.error {
+  color: #7a1d1d;
+}
+
+.hint {
+  color: #4b5560;
+}
+
+.danger {
+  color: #7a1d1d;
+}
